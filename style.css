@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  font-size: 16px;
+}
+:root{
+  --clr-pale-blue:hsl(225, 100%, 94%);
+  --clr-Bright-blue: hsl(245, 75%, 52%);
+  --clr-Very-pale-blue: hsl(225, 100%, 98%);
+  --clr-Desaturated-blue:hsl(224, 23%, 54%);
+  --clr-Dark-blue: hsl(223, 47%, 23%);
+  
+}
+
+body{
+  background-color:var(--clr-pale-blue);
+  height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card{
+
+  width: 360px;
+  height: auto;
+  background-color: var(--clr-Very-pale-blue);
+  border-radius: 16px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.12);
+  padding-bottom: 1rem;
+}
+.header-img{
+  max-width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+
+}
+.title{
+  font-size: 1.5rem;
+  margin: 1rem;
+  
+
+}
+.content{
+  width: 75%;
+  margin: 0.5rem auto;
+  line-height: 1.5;
+  color: var(--clr-Desaturated-blue);
+
+}
+.details-container{
+  width: 90%;
+  padding: 0.75rem;
+  margin: 0.5rem auto;
+  background-color: rgba(224, 232, 255, 0.29);
+  border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.plan{
+  font-size: 0.9rem;
+  font-weight: 900;
+
+}
+.price{
+  color: var(--clr-Desaturated-blue);
+}
+.change-link{
+  color: var(--clr-Bright-blue);
+}
+.change-link:hover{
+  opacity: 0.75;
+}
+.conformation{
+  width: 80%;
+  margin: 1rem auto;
+background-color:var(--clr-Bright-blue);
+padding: 0.75rem;
+font-size: 1.15rem;
+font-weight: 700;
+border-radius: 16px;
+color: var(--clr-Very-pale-blue);
+border: 2px solid var(--clr-Bright-blue);
+}
+.conformation:hover{
+  opacity: 0.75;
+  cursor: pointer;
+
+}
+
+.cancelation{
+  color: var(--clr-Desaturated-blue);
+  text-decoration: none;
+  
+
+}
+.cancelation:hover{
+  opacity: 0.75; 
+} 
